@@ -15,7 +15,9 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
         android:text="@string/title"
         android:textColor="@color/colorPrimary"
         android:textSize="40sp" />
@@ -28,4 +30,5 @@
         android:background="@color/colorAccent"
         android:contentDescription="@string/coal"
         app:srcCompat="@drawable/coal" />
+
 </RelativeLayout>
